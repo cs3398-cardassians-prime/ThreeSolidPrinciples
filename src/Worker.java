@@ -4,12 +4,12 @@ import java.awt.*;        // Using AWT container and component classes
 import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
-class Worker implements IWorker{
-	public void work() {
-		System.out.format("Working...from IWorker \n");
+class Worker extends BaseWorker implements IEat, ISick{
+	public void sick() {
+		System.out.format("Worker is sick...:-( \n");
 	}
 
 	public void eat() {
-		System.out.format("Eating...from IWorker \n");
+		System.out.format("Worker is eating...:-) \n");
 	}
 }
