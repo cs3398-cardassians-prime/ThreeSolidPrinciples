@@ -30,8 +30,9 @@ public class ThreeSolidMain
       {
          System.out.format("Starting ... \n"); 
          
-         tsProductManager.schedulework();
-         tsProjectManager.defineproduct();
+         tsProductManager.defineproduct();
+         tsProjectManager.schedulework();
+      
         
          tsWorker.work();
          
