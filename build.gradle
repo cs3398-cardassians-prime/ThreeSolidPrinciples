@@ -70,7 +70,7 @@ dependencies {
 
 // tag::wrapper[]
 wrapper {
-   gradleVersion = '3.5'
+   gradleVersion = '4.10.2'
 }
 // end::wrapper[]
 
