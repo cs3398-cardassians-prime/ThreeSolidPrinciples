@@ -7,8 +7,15 @@ public class TestWorker {
  private Worker w = new Worker();
  @Test
  @DisplayName("Work Method Test")
- public void testWorkMethod()
+ public void newtestBCWorkerPass()
  {
- assertEquals(w.work(),"I'm working already!",”Mismatch between test text and method text”);
+ assertEquals(w.work(),"Working...from BaseWorker\n");
  }
+ @Test
+ @DisplayName("Sick Method Test")
+ public void newtestBCWorkerFail()
+ {
+  assertEquals(w.sick(),"Worker is not sick...:-) \n");
+ }
+ 
 }
