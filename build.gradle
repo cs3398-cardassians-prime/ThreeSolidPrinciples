@@ -65,7 +65,8 @@ dependencies {
     testCompile "org.junit.jupiter:junit-jupiter-api:5.0.1"
 // the following is a work around to fix the warning:
 //          warning: unknown enum constant Status.STABLE
-@@ -69,7 +70,7 @@ dependencies {
+    testCompileOnly "org.apiguardian:apiguardian-api:1.0.0"
+}
 // end::dependencies[]
 
 // tag::wrapper[]
