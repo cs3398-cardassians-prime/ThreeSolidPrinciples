@@ -13,7 +13,6 @@ mainClassName = 'threesolid.ThreeSolidMain'
 //
 /////////////////////////////////////////////////////////////
 
-
 // tag::repositories[]
 // Usually, a Java project will have some dependencies on external JAR files.  
 // Gradle searches here for them
