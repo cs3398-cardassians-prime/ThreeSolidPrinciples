@@ -20,7 +20,7 @@ public class TestWorker {
       Worker robot = new Robot();
       w.setWorker(robot);
       assertEquals(w.manager(), "Robot rebooting... \n");
-		assertEquals(w.work(),"I'm working already!", "Mismatch between test text and method text");
+		assertEquals(w.work(),"I'm working already!");
 	}
    
 	// @Test
