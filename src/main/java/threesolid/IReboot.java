@@ -6,7 +6,7 @@ import java.io.*;
 
 
 interface IReboot {
-    public void reboot();
+    public String reboot();
 }
 
 

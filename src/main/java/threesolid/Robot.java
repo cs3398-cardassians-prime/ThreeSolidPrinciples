@@ -6,8 +6,8 @@ import java.io.*;
 
 public class Robot extends BaseWorker implements IReboot{
 	
-		public void reboot() {
-			System.out.format("Robot rebooting... \n");
+		public String reboot() {
+			return "Robot rebooting... \n";
 		}
 	}
 

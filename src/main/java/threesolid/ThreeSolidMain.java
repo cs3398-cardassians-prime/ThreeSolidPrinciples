@@ -6,6 +6,9 @@ import java.io.*;
 
 //import threesolid.*;
 
+
+// Need to redo, all functions are of type 'String' now.
+
 /*
 1. Open/Closed:Does not apply.
 

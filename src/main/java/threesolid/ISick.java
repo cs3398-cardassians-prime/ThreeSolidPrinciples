@@ -6,7 +6,7 @@ import java.io.*;
 
 
 interface ISick {
-    public void sick();
+    public String sick();
 }
 
 

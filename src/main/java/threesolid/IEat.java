@@ -6,7 +6,7 @@ import java.io.*;
 
 
 interface IEat {
-    public void eat();
+    public String eat();
 }
 
 
