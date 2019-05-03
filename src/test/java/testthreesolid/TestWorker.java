@@ -19,12 +19,12 @@ public class TestWorker {
         TempWorker t = new TempWorker();
         assertTrue(t.sick() == "I can't afford get to get sick since I'm a TempWorker... \n", "Condition is not true.");
     }
-/*
+
 	@Test
 	@DisplayName("Worker Fail Test")
 	public void newtestIVTWorkerFail() {
         SuperWorker s = new SuperWorker();
         assertNull(s);
 	}
-*/
+
 } 
