@@ -5,8 +5,8 @@ import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
 class Worker extends BaseWorker implements IEat, ISick{
-	public void sick() {
-		System.out.format("Worker is sick...:-( \n");
+	public String sick() {
+		return "Worker is sick...:-( \n";
 	}
 
 	public void eat() {

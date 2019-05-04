@@ -5,12 +5,12 @@ import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
 class SuperWorker extends BaseWorker implements IEat, ISick{
-	public void work() {
-		System.out.format("SuperWorker cant stop,wont stop...\n");
+	public String work() {
+		return "SuperWorker cant stop,wont stop...\n";
 	}
    
-   public void sick() {
-		System.out.format("SuperWorker doesn't get sick... \n");
+   public String sick() {
+		return "SuperWorker doesn't get sick... \n";
 	}
 
 	public void eat() {
