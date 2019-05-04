@@ -5,8 +5,8 @@ import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
 class TempWorker extends BaseWorker implements IEat, ISick{
-	public void work() {
-		System.out.format("I'm just a TempWorker temporarily working here... \n");
+	public String work() {
+		return "I'm just a TempWorker temporarily working here... \n";
 	}
 
    public void sick() {
